@@ -2,10 +2,12 @@
   "id": 1981287005,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-01",
+    "date:cessation_upper": "2025-09-01",
     "date:inception_lower": "2025-09-01",
     "date:inception_upper": "2025-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-01",
+    "edtf:cessation": "2025-09-01T03:53:54-07:00",
+    "edtf:inception": "2025-09-01T07:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -59.914066999999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250901-A-ACA-3298",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N69020",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109664259"
+    },
     "wof:country": "US",
     "wof:created": 1756829337,
     "wof:geomhash": "07d689097487ceb3bc0a07973d8c4b93",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981287005,
     "wof:involves": [
+      1159289985,
       102527513,
       102544459,
       1159285413,
       1947304155,
       1159283597
     ],
-    "wof:lastmodified": 1756829337,
+    "wof:lastmodified": 1756829906,
     "wof:name": "UA984 (CDG-SFO)",
     "wof:parent_id": 1947304155,
     "wof:placetype": "custom",

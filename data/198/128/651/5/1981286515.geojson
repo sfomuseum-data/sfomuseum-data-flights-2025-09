@@ -2,10 +2,12 @@
   "id": 1981286515,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-01",
+    "date:cessation_upper": "2025-09-01",
     "date:inception_lower": "2025-09-01",
     "date:inception_upper": "2025-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-01",
+    "edtf:cessation": "2025-09-01T00:25:41-07:00",
+    "edtf:inception": "2025-09-01T11:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250901-A-ACA-3659",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N47570",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109668686",
+      "swim:gufi": "KF36697200"
+    },
     "wof:country": "US",
     "wof:created": 1756829278,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981286515,
     "wof:involves": [
+      1528104577,
       102527513,
       102528541,
       1159285413,
       1947304519,
       1159283597
     ],
-    "wof:lastmodified": 1756829278,
+    "wof:lastmodified": 1756829904,
     "wof:name": "UA1851 (DFW-SFO)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",
