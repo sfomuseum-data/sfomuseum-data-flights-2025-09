@@ -2,10 +2,12 @@
   "id": 1981295551,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-02",
+    "date:cessation_upper": "2025-09-02",
     "date:inception_lower": "2025-09-02",
     "date:inception_upper": "2025-09-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-02",
+    "edtf:cessation": "2025-09-02T04:06:13-07:00",
+    "edtf:inception": "2025-09-02T16:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533927,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N846UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "109838041",
+      "swim:gufi": "KS56571300"
+    },
     "wof:country": "US",
     "wof:created": 1756915685,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981295551,
     "wof:involves": [
+      1159289407,
       102527513,
       102533927,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1756915685,
+    "wof:lastmodified": 1756916252,
     "wof:name": "UA3858 (EUG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
