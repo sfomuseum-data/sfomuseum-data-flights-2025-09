@@ -2,10 +2,12 @@
   "id": 1981301509,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-03",
+    "date:cessation_upper": "2025-09-03",
     "date:inception_lower": "2025-09-03",
     "date:inception_upper": "2025-09-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-03",
+    "edtf:cessation": "2025-09-03T19:50:11Z",
+    "edtf:inception": "2025-09-03T09:21:55Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "YP",
     "flysfo:date": "2025-09-03",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +54,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109899299"
+    },
     "wof:country": "US",
     "wof:created": 1757001810,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -88,7 +97,7 @@
       1930448549,
       1947304097
     ],
-    "wof:lastmodified": 1757001810,
+    "wof:lastmodified": 1757002619,
     "wof:name": "YP111 (ICN-SFO)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

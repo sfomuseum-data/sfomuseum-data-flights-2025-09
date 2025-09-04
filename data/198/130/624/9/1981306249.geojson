@@ -2,10 +2,12 @@
   "id": 1981306249,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-03",
+    "date:cessation_upper": "2025-09-03",
     "date:inception_lower": "2025-09-03",
     "date:inception_upper": "2025-09-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-03",
+    "edtf:cessation": "2025-09-03T21:56:49Z",
+    "edtf:inception": "2025-09-03T16:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20250903-D-AFR-8598",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N175DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109849402",
+      "swim:gufi": "KO56761400"
+    },
     "wof:country": "US",
     "wof:created": 1757002344,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981306249,
     "wof:involves": [
+      1159289965,
       102534365,
       102527513,
       1159284261,
       1763588251,
       1159283627
     ],
-    "wof:lastmodified": 1757002344,
+    "wof:lastmodified": 1757002638,
     "wof:name": "DL383 (SFO-JFK)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",
