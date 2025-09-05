@@ -2,10 +2,12 @@
   "id": 1981312403,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-04",
+    "date:cessation_upper": "2025-09-04",
     "date:inception_lower": "2025-09-04",
     "date:inception_upper": "2025-09-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-04",
+    "edtf:cessation": "2025-09-04T15:16:00Z",
+    "edtf:inception": "2025-09-04T14:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533927,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N827UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109943738",
+      "swim:gufi": "KS47462500"
+    },
     "wof:country": "US",
     "wof:created": 1757088523,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981312403,
     "wof:involves": [
+      1159289407,
       102527513,
       102533927,
       1159285413,
       1947304523
     ],
-    "wof:lastmodified": 1757088523,
+    "wof:lastmodified": 1757089193,
     "wof:name": "UA3924 (EUG-SFO)",
     "wof:parent_id": 1947304523,
     "wof:placetype": "custom",
