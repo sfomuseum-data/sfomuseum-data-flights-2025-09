@@ -2,10 +2,12 @@
   "id": 1981320841,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-05",
-    "date:inception_upper": "2025-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-05",
+    "date:cessation_lower": "2025-09-05",
+    "date:cessation_upper": "2025-09-05",
+    "date:inception_lower": "2025-09-06",
+    "date:inception_upper": "2025-09-06",
+    "edtf:cessation": "2025-09-05T14:02:27-07:00",
+    "edtf:inception": "2025-09-06T01:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-09-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8544Z",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109981529",
+      "swim:gufi": "KD85925600"
+    },
     "wof:country": "US",
     "wof:created": 1757174840,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981320841,
     "wof:involves": [
+      1159289871,
       102527513,
       102531189,
       1159285591,
       1947304601
     ],
-    "wof:lastmodified": 1757174840,
+    "wof:lastmodified": 1757175499,
     "wof:name": "WN2651 (DEN-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981325723,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-05",
+    "date:cessation_upper": "2025-09-05",
     "date:inception_lower": "2025-09-05",
     "date:inception_upper": "2025-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-05",
+    "edtf:cessation": "2025-09-05T23:36:00Z",
+    "edtf:inception": "2025-09-05T22:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N57862",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110046130",
+      "swim:gufi": "KO69943600"
+    },
     "wof:country": "US",
     "wof:created": 1757175404,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -86,9 +100,10 @@
       102527363,
       102527513,
       1159285413,
-      1947304491
+      1947304491,
+      1159289945
     ],
-    "wof:lastmodified": 1757175404,
+    "wof:lastmodified": 1757175515,
     "wof:name": "UA3797 (SFO-SLC)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

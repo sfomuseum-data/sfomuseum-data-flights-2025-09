@@ -2,10 +2,12 @@
   "id": 1981322089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-05",
+    "date:cessation_upper": "2025-09-05",
     "date:inception_lower": "2025-09-05",
     "date:inception_upper": "2025-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-05",
+    "edtf:cessation": "2025-09-05T08:08:36-07:00",
+    "edtf:inception": "2025-09-05T20:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "WJA",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250905-A-AMX-7259",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGWSN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110035472",
+      "swim:gufi": "KS64983600"
+    },
     "wof:country": "US",
     "wof:created": 1757174986,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981322089,
     "wof:involves": [
+      1159283539,
+      1159289869,
       102527513,
       102555307,
       1159285523,
-      1947304667,
-      1159283539
+      1947304667
     ],
-    "wof:lastmodified": 1757174986,
+    "wof:lastmodified": 1757175517,
     "wof:name": "WS1774 (YVR-SFO)",
     "wof:parent_id": 1947304667,
     "wof:placetype": "custom",

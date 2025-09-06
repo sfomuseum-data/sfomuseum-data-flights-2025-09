@@ -2,10 +2,12 @@
   "id": 1981325737,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-06",
+    "date:cessation_upper": "2025-09-06",
     "date:inception_lower": "2025-09-05",
     "date:inception_upper": "2025-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-05",
+    "edtf:cessation": "2025-09-06T02:31:00Z",
+    "edtf:inception": "2025-09-05T14:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 7.094688999999999,
     "geom:longitude": -84.426468,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102535413,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2333U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110008660",
+      "swim:gufi": "KO44427600"
+    },
     "wof:country": "US",
     "wof:created": 1757175406,
     "wof:geomhash": "e509f8c1709a7ee81b63723dd79c2f2c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981325737,
     "wof:involves": [
-      102535413,
-      102527513,
       1159285413,
-      1947304133
+      1947304133,
+      1159289993,
+      102535413,
+      102527513
     ],
-    "wof:lastmodified": 1757175406,
+    "wof:lastmodified": 1757175515,
     "wof:name": "UA3934 (SFO-GRU)",
     "wof:parent_id": 1947304133,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981325931,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-05",
+    "date:cessation_upper": "2025-09-05",
     "date:inception_lower": "2025-09-05",
     "date:inception_upper": "2025-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-05",
+    "edtf:cessation": "2025-09-05T11:28:29Z",
+    "edtf:inception": "2025-09-05T01:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109977690"
+    },
     "wof:country": "US",
     "wof:created": 1757175428,
     "wof:geomhash": "1b844caa247a357e6d3574dc4c3eb3e8",
@@ -94,7 +99,7 @@
       1947304141,
       1159286015
     ],
-    "wof:lastmodified": 1757175428,
+    "wof:lastmodified": 1757175523,
     "wof:name": "UA672 (SFO-BCN)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

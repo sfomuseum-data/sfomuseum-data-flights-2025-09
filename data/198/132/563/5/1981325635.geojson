@@ -2,10 +2,12 @@
   "id": 1981325635,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-05",
-    "date:inception_upper": "2025-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-05",
+    "date:cessation_lower": "2025-09-06",
+    "date:cessation_upper": "2025-09-06",
+    "date:inception_lower": "2025-09-06",
+    "date:inception_upper": "2025-09-06",
+    "edtf:cessation": "2025-09-06T04:33:00Z",
+    "edtf:inception": "2025-09-06T01:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20250905-D-ACA-4795",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N447UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109977308",
+      "swim:gufi": "KO01943700"
+    },
     "wof:country": "US",
     "wof:created": 1757175394,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304603,
-      1159283597
+      1159283597,
+      1159292085
     ],
-    "wof:lastmodified": 1757175394,
+    "wof:lastmodified": 1757175514,
     "wof:name": "UA2332 (SFO-AUS)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",
