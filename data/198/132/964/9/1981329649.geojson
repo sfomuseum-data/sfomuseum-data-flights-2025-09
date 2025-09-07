@@ -2,10 +2,12 @@
   "id": 1981329649,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-06",
+    "date:cessation_upper": "2025-09-06",
     "date:inception_lower": "2025-09-06",
     "date:inception_upper": "2025-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-06",
+    "edtf:cessation": "2025-09-06T08:05:26-07:00",
+    "edtf:inception": "2025-09-06T20:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "SWR",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250906-A-SWR-3257",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N843UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110130186",
+      "swim:gufi": "KS69328700"
+    },
     "wof:country": "US",
     "wof:created": 1757261261,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +106,10 @@
       102533269,
       1159285413,
       1947304609,
-      1159286475
+      1159286475,
+      1159289407
     ],
-    "wof:lastmodified": 1757261261,
+    "wof:lastmodified": 1757261852,
     "wof:name": "UA1620 (SEA-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

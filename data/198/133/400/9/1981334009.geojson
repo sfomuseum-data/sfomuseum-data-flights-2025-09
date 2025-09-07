@@ -2,10 +2,12 @@
   "id": 1981334009,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-06",
+    "date:cessation_upper": "2025-09-06",
     "date:inception_lower": "2025-09-06",
     "date:inception_upper": "2025-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-06",
+    "edtf:cessation": "2025-09-06T19:46:05Z",
+    "edtf:inception": "2025-09-06T06:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-06",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110079718"
+    },
     "wof:country": "US",
     "wof:created": 1757261782,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -88,7 +93,7 @@
       1159285413,
       1947304145
     ],
-    "wof:lastmodified": 1757261782,
+    "wof:lastmodified": 1757261859,
     "wof:name": "UA877 (SFO-HKG)",
     "wof:parent_id": 1947304145,
     "wof:placetype": "custom",

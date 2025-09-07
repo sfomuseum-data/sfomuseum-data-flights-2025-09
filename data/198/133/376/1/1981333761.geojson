@@ -2,10 +2,12 @@
   "id": 1981333761,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-06",
+    "date:cessation_upper": "2025-09-06",
     "date:inception_lower": "2025-09-06",
     "date:inception_upper": "2025-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-06",
+    "edtf:cessation": "2025-09-06T14:20:00Z",
+    "edtf:inception": "2025-09-06T13:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -48,6 +52,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110156936"
+    },
     "wof:country": "US",
     "wof:created": 1757261753,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +90,13 @@
     ],
     "wof:id": 1981333761,
     "wof:involves": [
+      1159292085,
       102533795,
       102527513,
       1159285413,
       1947304529
     ],
-    "wof:lastmodified": 1757261753,
+    "wof:lastmodified": 1757261858,
     "wof:name": "UA3900 (SFO-LAX)",
     "wof:parent_id": 1947304529,
     "wof:placetype": "custom",

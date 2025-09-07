@@ -2,10 +2,12 @@
   "id": 1981327045,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-07",
+    "date:cessation_upper": "2025-09-07",
     "date:inception_lower": "2025-09-06",
     "date:inception_upper": "2025-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-06",
+    "edtf:cessation": "2025-09-07T05:36:41Z",
+    "edtf:inception": "2025-09-06T15:03:24Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2025-09-06",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "110218058"
+    },
     "wof:country": "US",
     "wof:created": 1757260955,
     "wof:geomhash": "e8aee4e844e89ba8d7a176f852774210",
@@ -51,7 +56,7 @@
       1159283649,
       -1
     ],
-    "wof:lastmodified": 1757260955,
+    "wof:lastmodified": 1757261836,
     "wof:name": "AI179 (BOM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
