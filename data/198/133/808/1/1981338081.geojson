@@ -2,10 +2,12 @@
   "id": 1981338081,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-07",
+    "date:cessation_upper": "2025-09-07",
     "date:inception_lower": "2025-09-07",
     "date:inception_upper": "2025-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-07",
+    "edtf:cessation": "2025-09-07T10:08:40-07:00",
+    "edtf:inception": "2025-09-07T23:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250907-A-ACA-4361",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77542",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110217935"
+    },
     "wof:country": "US",
     "wof:created": 1757347708,
     "wof:geomhash": "aae625247f3652ef8a50cae9f49d2791",
@@ -92,9 +105,10 @@
       102527337,
       1159285413,
       1947304531,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1757347708,
+    "wof:lastmodified": 1757348358,
     "wof:name": "UA1973 (SBA-SFO)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

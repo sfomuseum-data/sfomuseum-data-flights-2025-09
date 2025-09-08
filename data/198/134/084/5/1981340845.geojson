@@ -2,10 +2,12 @@
   "id": 1981340845,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-07",
-    "date:inception_upper": "2025-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-07",
+    "date:cessation_lower": "2025-09-08",
+    "date:cessation_upper": "2025-09-08",
+    "date:inception_lower": "2025-09-08",
+    "date:inception_upper": "2025-09-08",
+    "edtf:cessation": "2025-09-08T11:50:31Z",
+    "edtf:inception": "2025-09-07T17:38:15-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N705TW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO22201200"
+    },
     "wof:country": "US",
     "wof:created": 1757348017,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981340845,
     "wof:involves": [
-      102526927,
       102527513,
       1159284261,
-      1947304671
+      1947304671,
+      1159289939,
+      102526927
     ],
-    "wof:lastmodified": 1757348017,
+    "wof:lastmodified": 1757348319,
     "wof:name": "DL8789 (SFO-ATL)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

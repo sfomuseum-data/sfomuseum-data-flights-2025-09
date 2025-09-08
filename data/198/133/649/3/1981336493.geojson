@@ -2,10 +2,12 @@
   "id": 1981336493,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-07",
-    "date:inception_upper": "2025-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-07",
+    "date:cessation_lower": "2025-09-07",
+    "date:cessation_upper": "2025-09-07",
+    "date:inception_lower": "2025-09-08",
+    "date:inception_upper": "2025-09-08",
+    "edtf:cessation": "2025-09-07T13:06:32-07:00",
+    "edtf:inception": "2025-09-08T01:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N705TW",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KA84961100"
+    },
     "wof:country": "US",
     "wof:created": 1757347524,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981336493,
     "wof:involves": [
-      102527513,
-      102533795,
       1159284261,
-      -1
+      1159289939,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1757347524,
+    "wof:lastmodified": 1757348331,
     "wof:name": "DL8876 (LAX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
