@@ -2,10 +2,12 @@
   "id": 1981348031,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-09",
+    "date:cessation_upper": "2025-09-09",
     "date:inception_lower": "2025-09-08",
     "date:inception_upper": "2025-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-08",
+    "edtf:cessation": "2025-09-09T00:41:39Z",
+    "edtf:inception": "2025-09-08T07:45:47-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20250908-D-BAW-4399",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N952XV",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110287786",
+      "swim:gufi": "KO72149200"
+    },
     "wof:country": "US",
     "wof:created": 1757434218,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981348031,
     "wof:involves": [
-      102528541,
       102527513,
       1159283849,
       1947304309,
-      1159284021
+      1159284021,
+      1377564297,
+      102528541
     ],
-    "wof:lastmodified": 1757434218,
+    "wof:lastmodified": 1757434755,
     "wof:name": "AA2387 (SFO-DFW)",
     "wof:parent_id": 1947304309,
     "wof:placetype": "custom",

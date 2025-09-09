@@ -2,10 +2,12 @@
   "id": 1981349869,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-08",
+    "date:cessation_upper": "2025-09-08",
     "date:inception_lower": "2025-09-08",
     "date:inception_upper": "2025-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-08",
+    "edtf:cessation": "2025-09-08T22:16:00Z",
+    "edtf:inception": "2025-09-08T06:51:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N664DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "110282970",
+      "swim:gufi": "KO70861201"
+    },
     "wof:country": "US",
     "wof:created": 1757434427,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981349869,
     "wof:involves": [
-      102533269,
-      102527513,
       1159284261,
-      -1
+      1159289939,
+      102533269,
+      102527513
     ],
-    "wof:lastmodified": 1757434427,
+    "wof:lastmodified": 1757434746,
     "wof:name": "DL8962 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
