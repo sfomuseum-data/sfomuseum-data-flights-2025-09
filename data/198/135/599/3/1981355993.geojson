@@ -2,10 +2,12 @@
   "id": 1981355993,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-09",
-    "date:inception_upper": "2025-09-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-09",
+    "date:cessation_lower": "2025-09-10",
+    "date:cessation_upper": "2025-09-10",
+    "date:inception_lower": "2025-09-10",
+    "date:inception_upper": "2025-09-10",
+    "edtf:cessation": "2025-09-09T18:00:45-07:00",
+    "edtf:inception": "2025-09-10T02:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250909-A-DLH-7530",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37525",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110306485"
+    },
     "wof:country": "US",
     "wof:created": 1757520519,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981355993,
     "wof:involves": [
-      102527513,
-      102528817,
       1159285413,
       1947304529,
-      1159286015
+      1159286015,
+      1528104577,
+      102527513,
+      102528817
     ],
-    "wof:lastmodified": 1757520519,
+    "wof:lastmodified": 1757521064,
     "wof:name": "UA367 (IAD-SFO)",
     "wof:parent_id": 1947304529,
     "wof:placetype": "custom",
