@@ -2,10 +2,12 @@
   "id": 1981368551,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-10",
+    "date:cessation_upper": "2025-09-10",
     "date:inception_lower": "2025-09-10",
     "date:inception_upper": "2025-09-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-10",
+    "edtf:cessation": "2025-09-10T21:59:00Z",
+    "edtf:inception": "2025-09-10T21:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7160145,
     "geom:longitude": -120.259968,
     "iata:airline": "UA",
+    "icao:aircraft": "A21N",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528985,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N14504",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110451963",
+      "swim:gufi": "KO71725400"
+    },
     "wof:country": "US",
     "wof:created": 1757607381,
     "wof:geomhash": "eb36f7fd50c4e3281bc24d5224da58d3",
@@ -86,9 +98,10 @@
       102528985,
       102527513,
       1159285413,
-      1947304623
+      1947304623,
+      1377564297
     ],
-    "wof:lastmodified": 1757607381,
+    "wof:lastmodified": 1757607503,
     "wof:name": "UA3752 (SFO-LGB)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",

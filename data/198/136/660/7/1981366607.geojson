@@ -2,10 +2,12 @@
   "id": 1981366607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-11",
+    "date:cessation_upper": "2025-09-11",
     "date:inception_lower": "2025-09-10",
     "date:inception_upper": "2025-09-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-10",
+    "edtf:cessation": "2025-09-11T01:28:39Z",
+    "edtf:inception": "2025-09-10T07:20:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CI",
     "flysfo:date": "2025-09-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "CI",
+    "icao:aircraft": "B77L",
     "icao:airline": "CAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289989,
     "sfomuseum:airline_id": 1159284153,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "B18779",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "110522298"
+    },
     "wof:country": "US",
     "wof:created": 1757607158,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981366607,
     "wof:involves": [
+      1159289989,
       102526927,
       102527513,
-      1159284153,
-      -1
+      1159284153
     ],
-    "wof:lastmodified": 1757607158,
+    "wof:lastmodified": 1757607488,
     "wof:name": "CI5346 (SFO-ATL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

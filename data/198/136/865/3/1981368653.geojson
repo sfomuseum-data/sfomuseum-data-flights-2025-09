@@ -2,10 +2,12 @@
   "id": 1981368653,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-10",
-    "date:inception_upper": "2025-09-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-10",
+    "date:cessation_lower": "2025-09-11",
+    "date:cessation_upper": "2025-09-11",
+    "date:inception_lower": "2025-09-11",
+    "date:inception_upper": "2025-09-11",
+    "edtf:cessation": "2025-09-11T09:26:00Z",
+    "edtf:inception": "2025-09-11T04:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:base_flight_id": "20250910-D-CCA-7330",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N47360",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO11722500"
+    },
     "wof:country": "US",
     "wof:created": 1757607393,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981368653,
     "wof:involves": [
+      1528104575,
       102529403,
       102527513,
       1159285413,
       1947304457,
       1159283605
     ],
-    "wof:lastmodified": 1757607393,
+    "wof:lastmodified": 1757607494,
     "wof:name": "UA552 (SFO-PHL)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981368539,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-11",
+    "date:cessation_upper": "2025-09-11",
     "date:inception_lower": "2025-09-10",
     "date:inception_upper": "2025-09-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-10",
+    "edtf:cessation": "2025-09-11T08:38:00Z",
+    "edtf:inception": "2025-09-10T14:28:43-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.315247,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528181,
     "sfomuseum:base_flight_id": "20250910-D-CCA-7334",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37342",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO12656500"
+    },
     "wof:country": "US",
     "wof:created": 1757607380,
     "wof:geomhash": "d7bea1763df143b6882335af1c301bcf",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981368539,
     "wof:involves": [
+      1528104575,
       102528181,
       102527513,
       1159285413,
       1947304527,
       1159283605
     ],
-    "wof:lastmodified": 1757607380,
+    "wof:lastmodified": 1757607493,
     "wof:name": "UA334 (SFO-PIT)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",
