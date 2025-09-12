@@ -2,10 +2,12 @@
   "id": 1981370795,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-11",
-    "date:inception_upper": "2025-09-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-11",
+    "date:cessation_lower": "2025-09-11",
+    "date:cessation_upper": "2025-09-11",
+    "date:inception_lower": "2025-09-12",
+    "date:inception_upper": "2025-09-12",
+    "edtf:cessation": "2025-09-11T16:28:33-07:00",
+    "edtf:inception": "2025-09-12T05:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-09-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N947AK",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KS13033601"
+    },
     "wof:country": "US",
     "wof:created": 1757693049,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981370795,
     "wof:involves": [
+      1528104577,
       102527513,
       102533269,
-      1159283813,
-      -1
+      1159283813
     ],
-    "wof:lastmodified": 1757693049,
+    "wof:lastmodified": 1757693950,
     "wof:name": "AS980 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

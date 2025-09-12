@@ -2,10 +2,12 @@
   "id": 1981373043,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-11",
+    "date:cessation_upper": "2025-09-11",
     "date:inception_lower": "2025-09-11",
     "date:inception_upper": "2025-09-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-11",
+    "edtf:cessation": "2025-09-11T08:12:21-07:00",
+    "edtf:inception": "2025-09-11T21:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530507,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N86534",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110543668",
+      "swim:gufi": "KS72417500"
+    },
     "wof:country": "US",
     "wof:created": 1757693311,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981373043,
     "wof:involves": [
+      1159289871,
       102527513,
       102530507,
       1159285413,
       1947304515
     ],
-    "wof:lastmodified": 1757693311,
+    "wof:lastmodified": 1757693932,
     "wof:name": "UA2262 (RDM-SFO)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

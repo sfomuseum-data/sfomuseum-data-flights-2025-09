@@ -2,10 +2,12 @@
   "id": 1981377781,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-11",
-    "date:inception_upper": "2025-09-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-11",
+    "date:cessation_lower": "2025-09-12",
+    "date:cessation_upper": "2025-09-12",
+    "date:inception_lower": "2025-09-12",
+    "date:inception_upper": "2025-09-12",
+    "edtf:cessation": "2025-09-12T06:15:00Z",
+    "edtf:inception": "2025-09-12T05:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20250911-D-DLH-8574",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N855UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO13563600"
+    },
     "wof:country": "US",
     "wof:created": 1757693853,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981377781,
     "wof:involves": [
+      1159286015,
+      1159289407,
       102533927,
       102527513,
       1159285413,
-      1947304453,
-      1159286015
+      1947304453
     ],
-    "wof:lastmodified": 1757693853,
+    "wof:lastmodified": 1757693958,
     "wof:name": "UA644 (SFO-EUG)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

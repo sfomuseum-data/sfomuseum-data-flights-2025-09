@@ -2,10 +2,12 @@
   "id": 1981373159,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-11",
-    "date:inception_upper": "2025-09-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-11",
+    "date:cessation_lower": "2025-09-11",
+    "date:cessation_upper": "2025-09-11",
+    "date:inception_lower": "2025-09-12",
+    "date:inception_upper": "2025-09-12",
+    "edtf:cessation": "2025-09-11T13:25:22-07:00",
+    "edtf:inception": "2025-09-12T02:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250911-A-ACA-4112",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N26210",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110475569",
+      "swim:gufi": "KL03649600"
+    },
     "wof:country": "US",
     "wof:created": 1757693324,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -92,9 +105,10 @@
       102533575,
       1159285413,
       1947304487,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1757693324,
+    "wof:lastmodified": 1757693932,
     "wof:name": "UA393 (ONT-SFO)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",
