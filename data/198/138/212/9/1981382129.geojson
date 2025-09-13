@@ -2,10 +2,12 @@
   "id": 1981382129,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-12",
+    "date:cessation_upper": "2025-09-12",
     "date:inception_lower": "2025-09-12",
     "date:inception_upper": "2025-09-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-12",
+    "edtf:cessation": "2025-09-12T13:46:53Z",
+    "edtf:inception": "2025-09-12T11:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N57863",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110668319",
+      "swim:gufi": "KD38460601"
+    },
     "wof:country": "US",
     "wof:created": 1757779714,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,9 +99,10 @@
       102527513,
       102531189,
       1159285413,
-      1947304457
+      1947304457,
+      1159289945
     ],
-    "wof:lastmodified": 1757779714,
+    "wof:lastmodified": 1757780319,
     "wof:name": "UA3900 (DEN-SFO)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",

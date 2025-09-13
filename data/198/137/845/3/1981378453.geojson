@@ -2,10 +2,12 @@
   "id": 1981378453,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-12",
+    "date:cessation_upper": "2025-09-12",
     "date:inception_lower": "2025-09-12",
     "date:inception_upper": "2025-09-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-12",
+    "edtf:cessation": "2025-09-12T11:13:15-07:00",
+    "edtf:inception": "2025-09-12T22:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250912-A-FIN-4022",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N519UW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110644631",
+      "swim:gufi": "KF73834600"
+    },
     "wof:country": "US",
     "wof:created": 1757779278,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -92,9 +106,10 @@
       102528541,
       1159283849,
       1947304309,
-      1159284389
+      1159284389,
+      1159289411
     ],
-    "wof:lastmodified": 1757779278,
+    "wof:lastmodified": 1757780295,
     "wof:name": "AA2810 (DFW-SFO)",
     "wof:parent_id": 1947304309,
     "wof:placetype": "custom",
