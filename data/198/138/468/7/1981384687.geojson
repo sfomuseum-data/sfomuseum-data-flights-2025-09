@@ -1,0 +1,72 @@
+{
+  "id": 1981384687,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-09-12",
+    "date:inception_upper": "2025-09-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-09-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-09-12",
+    "flysfo:estimated_timestamp": 1757687400,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL420",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-MRY",
+    "flysfo:scheduled_timestamp": 1757687400,
+    "flysfo:timestamp": 1757687400,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,36.587900,-121.839390,37.617990",
+    "geom:latitude": 37.102945,
+    "geom:longitude": -122.1051665,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102525191,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250912-D-DAL-420",
+    "sfomuseum:flight_number": [
+      "DAL420",
+      "DL420"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1757780002,
+    "wof:geomhash": "671e58da07f1ec37fb4507b393a80870",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981384687,
+        "flight_id": 1981384687
+      }
+    ],
+    "wof:id": 1981384687,
+    "wof:involves": [
+      102525191,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1757780002,
+    "wof:name": "DL420 (SFO-MRY)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    36.5879,
+    -121.83939,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-121.83939,36.5879]],"type":"MultiPoint"}
+}
