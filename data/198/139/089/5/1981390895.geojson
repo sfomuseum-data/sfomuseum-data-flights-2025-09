@@ -2,10 +2,12 @@
   "id": 1981390895,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-13",
+    "date:cessation_upper": "2025-09-13",
     "date:inception_lower": "2025-09-13",
     "date:inception_upper": "2025-09-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-13",
+    "edtf:cessation": "2025-09-13T03:20:37-07:00",
+    "edtf:inception": "2025-09-13T08:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 9.012156999999995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250913-A-ANA-7012",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N78005",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110671490",
+      "swim:gufi": "KO57159700"
+    },
     "wof:country": "US",
     "wof:created": 1757866107,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981390895,
     "wof:involves": [
+      1159289985,
       102527513,
       102541685,
       1159285413,
       1947304147,
       1159283875
     ],
-    "wof:lastmodified": 1757866107,
+    "wof:lastmodified": 1757866610,
     "wof:name": "UA838 (NRT-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

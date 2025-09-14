@@ -2,10 +2,12 @@
   "id": 1981390445,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-13",
+    "date:cessation_upper": "2025-09-13",
     "date:inception_lower": "2025-09-13",
     "date:inception_upper": "2025-09-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-13",
+    "edtf:cessation": "2025-09-13T07:54:19-07:00",
+    "edtf:inception": "2025-09-13T16:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ETH",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250913-A-ETH-1358",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N57852",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110705392",
+      "swim:gufi": "KW56750700"
+    },
     "wof:country": "US",
     "wof:created": 1757866057,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -92,9 +106,10 @@
       102528817,
       1159285413,
       1947304491,
-      1159284341
+      1159284341,
+      1159289945
     ],
-    "wof:lastmodified": 1757866057,
+    "wof:lastmodified": 1757866605,
     "wof:name": "UA1434 (IAD-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",
