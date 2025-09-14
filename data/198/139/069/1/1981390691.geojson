@@ -1,0 +1,72 @@
+{
+  "id": 1981390691,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-09-13",
+    "date:inception_upper": "2025-09-13",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-09-13",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-09-13",
+    "flysfo:estimated_timestamp": 1757752080,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3773",
+    "flysfo:gate": "",
+    "flysfo:journey": "MSY-SFO",
+    "flysfo:scheduled_timestamp": 1757748000,
+    "flysfo:timestamp": 1757752080,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,29.982609,-90.261832,37.617990",
+    "geom:latitude": 33.8002995,
+    "geom:longitude": -106.31638749999999,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102530009,
+    "sfomuseum:flight_id": "20250913-A-UAL-3773",
+    "sfomuseum:flight_number": [
+      "UAL3773",
+      "UA3773"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1757866084,
+    "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981390691,
+        "flight_id": 1981390691
+      }
+    ],
+    "wof:id": 1981390691,
+    "wof:involves": [
+      102527513,
+      102530009,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1757866084,
+    "wof:name": "UA3773 (MSY-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    29.982609,
+    -90.261832,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-90.261832,29.982609],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
