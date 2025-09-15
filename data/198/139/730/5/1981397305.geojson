@@ -2,10 +2,12 @@
   "id": 1981397305,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-14",
+    "date:cessation_upper": "2025-09-14",
     "date:inception_lower": "2025-09-14",
     "date:inception_upper": "2025-09-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-14",
+    "edtf:cessation": "2025-09-14T07:15:09-07:00",
+    "edtf:inception": "2025-09-14T19:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N547US",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "110802717",
+      "swim:gufi": "KA67261100"
+    },
     "wof:country": "US",
     "wof:created": 1757952355,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981397305,
     "wof:involves": [
+      1159289939,
       102527513,
       102526751,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1757952355,
+    "wof:lastmodified": 1757953188,
     "wof:name": "DL8888 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

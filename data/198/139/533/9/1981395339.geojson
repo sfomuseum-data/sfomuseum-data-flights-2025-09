@@ -2,10 +2,12 @@
   "id": 1981395339,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-14",
-    "date:inception_upper": "2025-09-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-14",
+    "date:cessation_lower": "2025-09-14",
+    "date:cessation_upper": "2025-09-14",
+    "date:inception_lower": "2025-09-15",
+    "date:inception_upper": "2025-09-15",
+    "edtf:cessation": "2025-09-14T12:24:36-07:00",
+    "edtf:inception": "2025-09-15T00:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250914-A-BAW-6918",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N111US",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110746918",
+      "swim:gufi": "KA84366100"
+    },
     "wof:country": "US",
     "wof:created": 1757952105,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981395339,
     "wof:involves": [
+      1159292085,
       102527513,
       102526751,
       1159283849,
       1947304283,
       1159284021
     ],
-    "wof:lastmodified": 1757952105,
+    "wof:lastmodified": 1757953154,
     "wof:name": "AA2421 (PHX-SFO)",
     "wof:parent_id": 1947304283,
     "wof:placetype": "custom",

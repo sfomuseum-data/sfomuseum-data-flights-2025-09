@@ -2,10 +2,12 @@
   "id": 1981397309,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-14",
+    "date:cessation_upper": "2025-09-14",
     "date:inception_lower": "2025-09-14",
     "date:inception_upper": "2025-09-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-14",
+    "edtf:cessation": "2025-09-14T11:19:23-07:00",
+    "edtf:inception": "2025-09-14T21:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N119DU",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "110810524",
+      "swim:gufi": "KP72661100"
+    },
     "wof:country": "US",
     "wof:created": 1757952356,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981397309,
     "wof:involves": [
+      1528104583,
       102527513,
       102531131,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1757952356,
+    "wof:lastmodified": 1757953188,
     "wof:name": "DL8962 (MSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

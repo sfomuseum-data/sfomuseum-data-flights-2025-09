@@ -2,10 +2,12 @@
   "id": 1981399271,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-15",
+    "date:cessation_upper": "2025-09-15",
     "date:inception_lower": "2025-09-14",
     "date:inception_upper": "2025-09-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-14",
+    "edtf:cessation": "2025-09-14T23:57:44-07:00",
+    "edtf:inception": "2025-09-14T13:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250914-A-AVA-2267",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N47357",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110768816",
+      "swim:gufi": "KS44019100"
+    },
     "wof:country": "US",
     "wof:created": 1757952582,
     "wof:geomhash": "10bf27aabb5200ef4863b11f6c2a5d60",
@@ -92,9 +106,10 @@
       102527187,
       1159285413,
       1947304459,
-      1159285749
+      1159285749,
+      1528104575
     ],
-    "wof:lastmodified": 1757952582,
+    "wof:lastmodified": 1757953210,
     "wof:name": "UA717 (MFR-SFO)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",

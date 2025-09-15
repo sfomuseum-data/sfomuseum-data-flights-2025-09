@@ -2,10 +2,12 @@
   "id": 1981398999,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-14",
+    "date:cessation_upper": "2025-09-14",
     "date:inception_lower": "2025-09-14",
     "date:inception_upper": "2025-09-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-14",
+    "edtf:cessation": "2025-09-14T02:27:36-07:00",
+    "edtf:inception": "2025-09-14T10:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250914-A-ANA-7003",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37530",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110760209",
+      "swim:gufi": "KB33205100"
+    },
     "wof:country": "US",
     "wof:created": 1757952550,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -92,9 +106,10 @@
       102530741,
       1159285413,
       1947304483,
-      1159283875
+      1159283875,
+      1528104577
     ],
-    "wof:lastmodified": 1757952550,
+    "wof:lastmodified": 1757953206,
     "wof:name": "UA2441 (BOS-SFO)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",
