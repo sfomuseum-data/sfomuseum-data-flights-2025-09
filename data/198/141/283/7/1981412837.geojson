@@ -2,10 +2,12 @@
   "id": 1981412837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-15",
+    "date:cessation_upper": "2025-09-15",
     "date:inception_lower": "2025-09-15",
     "date:inception_upper": "2025-09-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-15",
+    "edtf:cessation": "2025-09-15T20:35:00Z",
+    "edtf:inception": "2025-09-15T16:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17333",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "110864295",
+      "swim:gufi": "KO54650200"
+    },
     "wof:country": "US",
     "wof:created": 1758039494,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981412837,
     "wof:involves": [
+      1528104575,
       102526927,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1758039494,
+    "wof:lastmodified": 1758039584,
     "wof:name": "UA8186 (SFO-ATL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

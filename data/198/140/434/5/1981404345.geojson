@@ -2,10 +2,12 @@
   "id": 1981404345,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-15",
+    "date:cessation_upper": "2025-09-15",
     "date:inception_lower": "2025-09-15",
     "date:inception_upper": "2025-09-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-15",
+    "edtf:cessation": "2025-09-15T06:29:42-07:00",
+    "edtf:inception": "2025-09-15T16:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2025-09-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N347TT",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110853616",
+      "swim:gufi": "KH53713200"
+    },
     "wof:country": "US",
     "wof:created": 1758038499,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981404345,
     "wof:involves": [
+      1947304291,
+      1528104575,
       102527513,
       102530009,
-      1159283849,
-      1947304291
+      1159283849
     ],
-    "wof:lastmodified": 1758038499,
+    "wof:lastmodified": 1758039562,
     "wof:name": "AA1748 (MSY-SFO)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",

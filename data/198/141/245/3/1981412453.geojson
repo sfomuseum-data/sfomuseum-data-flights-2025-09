@@ -2,10 +2,12 @@
   "id": 1981412453,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-15",
+    "date:cessation_upper": "2025-09-15",
     "date:inception_lower": "2025-09-15",
     "date:inception_upper": "2025-09-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-15",
+    "edtf:cessation": "2025-09-15T23:17:57Z",
+    "edtf:inception": "2025-09-15T18:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "SWR",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20250915-D-SWR-3171",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N61886",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110872937",
+      "swim:gufi": "KO60430201"
+    },
     "wof:country": "US",
     "wof:created": 1758039450,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981412453,
     "wof:involves": [
+      1947304529,
+      1159286475,
+      1377564285,
       102530049,
       102527513,
-      1159285413,
-      1947304529,
-      1159286475
+      1159285413
     ],
-    "wof:lastmodified": 1758039450,
+    "wof:lastmodified": 1758039580,
     "wof:name": "UA205 (SFO-EWR)",
     "wof:parent_id": 1947304529,
     "wof:placetype": "custom",

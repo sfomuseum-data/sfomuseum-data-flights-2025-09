@@ -2,10 +2,12 @@
   "id": 1981410087,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-15",
+    "date:cessation_upper": "2025-09-15",
     "date:inception_lower": "2025-09-15",
     "date:inception_upper": "2025-09-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-15",
+    "edtf:cessation": "2025-09-15T16:28:00Z",
+    "edtf:inception": "2025-09-15T15:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -61.1854715,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:base_flight_id": "20250915-D-HAL-7007",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N518AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110857975",
+      "swim:gufi": "KO50353200"
+    },
     "wof:country": "US",
     "wof:created": 1758039181,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304293,
-      1159284489
+      1159284489,
+      1159289871
     ],
-    "wof:lastmodified": 1758039181,
+    "wof:lastmodified": 1758039563,
     "wof:name": "AS1410 (SFO-PDX)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",

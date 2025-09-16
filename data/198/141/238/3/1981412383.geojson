@@ -2,10 +2,12 @@
   "id": 1981412383,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-15",
+    "date:cessation_upper": "2025-09-15",
     "date:inception_lower": "2025-09-15",
     "date:inception_upper": "2025-09-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-15",
+    "edtf:cessation": "2025-09-15T05:14:00Z",
+    "edtf:inception": "2025-09-15T04:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:base_flight_id": "20250915-D-ACA-4354",
@@ -53,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110835281",
+      "swim:gufi": "KO11457200"
+    },
     "wof:country": "US",
     "wof:created": 1758039442,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1981412383,
     "wof:involves": [
+      1159283597,
+      1159289407,
       102527337,
       102527513,
       1159285413,
-      1947304607,
-      1159283597
+      1947304607
     ],
-    "wof:lastmodified": 1758039442,
+    "wof:lastmodified": 1758039579,
     "wof:name": "UA1743 (SFO-SBA)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",
