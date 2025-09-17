@@ -1,0 +1,72 @@
+{
+  "id": 1981420327,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-09-16",
+    "date:inception_upper": "2025-09-16",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-09-16",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "SQ",
+    "flysfo:date": "2025-09-16",
+    "flysfo:estimated_timestamp": 1758015000,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "SQ9041",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-HKG",
+    "flysfo:scheduled_timestamp": 1758015000,
+    "flysfo:timestamp": 1758015000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,22.307471,113.927436,37.617990",
+    "geom:latitude": 29.9627305,
+    "geom:longitude": -4.221753499999998,
+    "iata:airline": "SQ",
+    "icao:airline": "SIA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159286259,
+    "sfomuseum:arrival_id": 102541737,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250916-D-SIA-9041",
+    "sfomuseum:flight_number": [
+      "SIA9041",
+      "SQ9041"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1758125748,
+    "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981420327,
+        "flight_id": 1981420327
+      }
+    ],
+    "wof:id": 1981420327,
+    "wof:involves": [
+      102541737,
+      102527513,
+      1159286259,
+      -1
+    ],
+    "wof:lastmodified": 1758125748,
+    "wof:name": "SQ9041 (SFO-HKG)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    22.307471,
+    113.927436,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[113.927436,22.307471]],"type":"MultiPoint"}
+}
