@@ -2,10 +2,12 @@
   "id": 1981416097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-17",
+    "date:cessation_upper": "2025-09-17",
     "date:inception_lower": "2025-09-16",
     "date:inception_upper": "2025-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-16",
+    "edtf:cessation": "2025-09-17T00:21:00Z",
+    "edtf:inception": "2025-09-16T10:58:27Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "QF",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111004403"
+    },
     "wof:country": "US",
     "wof:created": 1758125266,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -94,7 +99,7 @@
       1947304085,
       1159283849
     ],
-    "wof:lastmodified": 1758125266,
+    "wof:lastmodified": 1758125921,
     "wof:name": "QF73 (SYD-SFO)",
     "wof:parent_id": 1947304085,
     "wof:placetype": "custom",

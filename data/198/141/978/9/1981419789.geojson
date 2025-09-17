@@ -2,10 +2,12 @@
   "id": 1981419789,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-17",
+    "date:cessation_upper": "2025-09-17",
     "date:inception_lower": "2025-09-16",
     "date:inception_upper": "2025-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-16",
+    "edtf:cessation": "2025-09-17T09:56:58Z",
+    "edtf:inception": "2025-09-16T22:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AZ",
     "flysfo:date": "2025-09-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.707441,
     "geom:longitude": -55.0628825,
     "iata:airline": "AZ",
+    "icao:aircraft": "A339",
     "icao:airline": "ITY",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1763699293,
     "sfomuseum:arrival_id": 102547941,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "EIHPB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1981419789,
     "wof:involves": [
+      1947304079,
+      1393786509,
       102547941,
       102527513,
-      1763699293,
-      1947304079
+      1763699293
     ],
-    "wof:lastmodified": 1758125686,
+    "wof:lastmodified": 1758125918,
     "wof:name": "AZ641 (SFO-FCO)",
     "wof:parent_id": 1947304079,
     "wof:placetype": "custom",

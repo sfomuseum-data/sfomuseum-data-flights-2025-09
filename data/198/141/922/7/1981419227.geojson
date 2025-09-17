@@ -2,10 +2,12 @@
   "id": 1981419227,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-16",
+    "date:cessation_upper": "2025-09-16",
     "date:inception_lower": "2025-09-16",
     "date:inception_upper": "2025-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-16",
+    "edtf:cessation": "2025-09-16T23:06:00Z",
+    "edtf:inception": "2025-09-16T19:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20250916-D-AFR-8943",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N585NW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110962838",
+      "swim:gufi": "KO65401300"
+    },
     "wof:country": "US",
     "wof:created": 1758125623,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -92,9 +105,10 @@
       102527513,
       1159284261,
       1763588251,
-      1159283627
+      1159283627,
+      1159289945
     ],
-    "wof:lastmodified": 1758125623,
+    "wof:lastmodified": 1758125916,
     "wof:name": "DL693 (SFO-ATL)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

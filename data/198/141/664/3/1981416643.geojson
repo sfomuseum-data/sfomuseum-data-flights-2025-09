@@ -2,10 +2,12 @@
   "id": 1981416643,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-17",
+    "date:cessation_upper": "2025-09-17",
     "date:inception_lower": "2025-09-16",
     "date:inception_upper": "2025-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-16",
+    "edtf:cessation": "2025-09-17T02:48:35Z",
+    "edtf:inception": "2025-09-16T22:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250916-A-ANZ-2158",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N47280",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110982229",
+      "swim:gufi": "KH77843300"
+    },
     "wof:country": "US",
     "wof:created": 1758125330,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -92,9 +105,10 @@
       102530009,
       1159285413,
       1763588337,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1758125330,
+    "wof:lastmodified": 1758125923,
     "wof:name": "UA1665 (MSY-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

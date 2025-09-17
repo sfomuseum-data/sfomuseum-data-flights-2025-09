@@ -2,10 +2,12 @@
   "id": 1981420327,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-16",
+    "date:cessation_upper": "2025-09-16",
     "date:inception_lower": "2025-09-16",
     "date:inception_upper": "2025-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-16",
+    "edtf:cessation": "2025-09-16T23:18:48Z",
+    "edtf:inception": "2025-09-16T10:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SQ",
     "flysfo:date": "2025-09-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "SQ",
+    "icao:aircraft": "A359",
     "icao:airline": "SIA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159286259,
     "sfomuseum:arrival_id": 102541737,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "9VSGG",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "111003118"
+    },
     "wof:country": "US",
     "wof:created": 1758125748,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1981420327,
     "wof:involves": [
+      1377564293,
       102541737,
       102527513,
-      1159286259,
-      -1
+      1159286259
     ],
-    "wof:lastmodified": 1758125748,
+    "wof:lastmodified": 1758125898,
     "wof:name": "SQ9041 (SFO-HKG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
