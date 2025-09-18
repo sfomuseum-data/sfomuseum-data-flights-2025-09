@@ -2,10 +2,12 @@
   "id": 1981429099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
     "date:inception_lower": "2025-09-17",
     "date:inception_upper": "2025-09-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-17",
+    "edtf:cessation": "2025-09-18T09:35:00Z",
+    "edtf:inception": "2025-09-17T14:46:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-09-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532047,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8322X",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "110999908",
+      "swim:gufi": "KO10437500"
+    },
     "wof:country": "US",
     "wof:created": 1758212172,
     "wof:geomhash": "ff243e97b2d4ce40e0a4accb79115371",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981429099,
     "wof:involves": [
+      1159289871,
       102532047,
       102527513,
       1159285591,
       1947304597
     ],
-    "wof:lastmodified": 1758212172,
+    "wof:lastmodified": 1758212353,
     "wof:name": "WN4271 (SFO-BWI)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981425349,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-17",
+    "date:cessation_upper": "2025-09-17",
     "date:inception_lower": "2025-09-17",
     "date:inception_upper": "2025-09-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-17",
+    "edtf:cessation": "2025-09-17T10:42:06-07:00",
+    "edtf:inception": "2025-09-17T21:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N204UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111105809",
+      "swim:gufi": "KH72680400"
+    },
     "wof:country": "US",
     "wof:created": 1758211750,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981425349,
     "wof:involves": [
+      1159289985,
       102527513,
       102534097,
       1159285413,
       1947304463
     ],
-    "wof:lastmodified": 1758211750,
+    "wof:lastmodified": 1758212338,
     "wof:name": "UA3922 (IAH-SFO)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",

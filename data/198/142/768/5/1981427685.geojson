@@ -2,10 +2,12 @@
   "id": 1981427685,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
     "date:inception_lower": "2025-09-17",
     "date:inception_upper": "2025-09-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-17",
+    "edtf:cessation": "2025-09-18T10:43:10Z",
+    "edtf:inception": "2025-09-17T10:29:30-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DE",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "DE",
     "iata:base_airline": "",
+    "icao:aircraft": "A339",
     "icao:airline": "CFG",
     "icao:base_airline": "ASA",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1159284193,
     "sfomuseum:arrival_id": 102549057,
     "sfomuseum:base_flight_id": "20250917-D-ASA-8833",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "DANRC",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +98,14 @@
     ],
     "wof:id": 1981427685,
     "wof:involves": [
-      102549057,
       102527513,
       1159284193,
       1947304087,
-      1159283813
+      1159283813,
+      1393786509,
+      102549057
     ],
-    "wof:lastmodified": 1758212013,
+    "wof:lastmodified": 1758212350,
     "wof:name": "DE2093 (SFO-FRA)",
     "wof:parent_id": 1947304087,
     "wof:placetype": "custom",
