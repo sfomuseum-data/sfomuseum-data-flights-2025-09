@@ -2,10 +2,12 @@
   "id": 1981438619,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
     "date:inception_lower": "2025-09-18",
     "date:inception_upper": "2025-09-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-18",
+    "edtf:cessation": "2025-09-18T17:15:00Z",
+    "edtf:inception": "2025-09-18T15:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20250918-D-ACA-4162",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N77295",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111118579",
+      "swim:gufi": "KO53643500"
+    },
     "wof:country": "US",
     "wof:created": 1758298655,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304617,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1758298655,
+    "wof:lastmodified": 1758298796,
     "wof:name": "UA1825 (SFO-SLC)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

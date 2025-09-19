@@ -2,10 +2,12 @@
   "id": 1981434377,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-18",
-    "date:inception_upper": "2025-09-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-18",
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
+    "date:inception_lower": "2025-09-19",
+    "date:inception_upper": "2025-09-19",
+    "edtf:cessation": "2025-09-18T16:34:37-07:00",
+    "edtf:inception": "2025-09-19T05:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2352U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1981434377,
     "wof:involves": [
-      102527513,
       102533269,
       1159285413,
-      1947304459
+      1947304459,
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1758298175,
+    "wof:lastmodified": 1758298783,
     "wof:name": "UA3773 (SEA-SFO)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981432241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
     "date:inception_lower": "2025-09-18",
     "date:inception_upper": "2025-09-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-18",
+    "edtf:cessation": "2025-09-18T08:23:00Z",
+    "edtf:inception": "2025-09-18T03:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CI",
     "flysfo:date": "2025-09-18",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "111174406"
+    },
     "wof:country": "US",
     "wof:created": 1758297930,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
@@ -51,7 +56,7 @@
       1159284153,
       -1
     ],
-    "wof:lastmodified": 1758297930,
+    "wof:lastmodified": 1758298805,
     "wof:name": "CI5345 (ATL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

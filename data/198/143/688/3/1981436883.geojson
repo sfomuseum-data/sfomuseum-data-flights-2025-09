@@ -2,10 +2,12 @@
   "id": 1981436883,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
     "date:inception_lower": "2025-09-18",
     "date:inception_upper": "2025-09-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-18",
+    "edtf:cessation": "2025-09-18T14:07:00Z",
+    "edtf:inception": "2025-09-18T12:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20250918-D-AMX-4208",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N846DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111100864",
+      "swim:gufi": "KO42361500"
+    },
     "wof:country": "US",
     "wof:created": 1758298458,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981436883,
     "wof:involves": [
+      1377564285,
       102527363,
       102527513,
       1159284261,
       1763588251,
       1159283539
     ],
-    "wof:lastmodified": 1758298458,
+    "wof:lastmodified": 1758298790,
     "wof:name": "DL1331 (SFO-SLC)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

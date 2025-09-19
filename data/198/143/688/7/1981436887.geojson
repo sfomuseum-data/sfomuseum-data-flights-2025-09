@@ -2,10 +2,12 @@
   "id": 1981436887,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
     "date:inception_lower": "2025-09-18",
     "date:inception_upper": "2025-09-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-18",
+    "edtf:cessation": "2025-09-18T22:53:00Z",
+    "edtf:inception": "2025-09-18T07:24:54-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20250918-D-KLM-7253",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N102DU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111148191",
+      "swim:gufi": "KO71761500"
+    },
     "wof:country": "US",
     "wof:created": 1758298458,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981436887,
     "wof:involves": [
+      1528104583,
       102533269,
       102527513,
       1159284261,
       1947304671,
       1159284613
     ],
-    "wof:lastmodified": 1758298458,
+    "wof:lastmodified": 1758298790,
     "wof:name": "DL1412 (SFO-SEA)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

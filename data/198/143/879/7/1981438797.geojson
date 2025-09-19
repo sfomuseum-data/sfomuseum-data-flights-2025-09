@@ -2,10 +2,12 @@
   "id": 1981438797,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-18",
+    "date:cessation_upper": "2025-09-18",
     "date:inception_lower": "2025-09-18",
     "date:inception_upper": "2025-09-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-18",
+    "edtf:cessation": "2025-09-18T19:09:00Z",
+    "edtf:inception": "2025-09-18T01:44:50-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2352U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111116135",
+      "swim:gufi": "KO52517500"
+    },
     "wof:country": "US",
     "wof:created": 1758298675,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981438797,
     "wof:involves": [
+      1159289993,
       102530009,
       102527513,
       1159285413,
       1947304487
     ],
-    "wof:lastmodified": 1758298675,
+    "wof:lastmodified": 1758298797,
     "wof:name": "UA3774 (SFO-MSY)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",
