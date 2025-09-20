@@ -2,10 +2,12 @@
   "id": 1981443495,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-19",
+    "date:cessation_upper": "2025-09-19",
     "date:inception_lower": "2025-09-19",
     "date:inception_upper": "2025-09-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-19",
+    "edtf:cessation": "2025-09-19T19:14:00Z",
+    "edtf:inception": "2025-09-19T13:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N73299",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111257910",
+      "swim:gufi": "KJ37539600"
+    },
     "wof:country": "US",
     "wof:created": 1758384544,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981443495,
     "wof:involves": [
+      1159289871,
       102527513,
       102533657,
       1159285413,
       1947304617
     ],
-    "wof:lastmodified": 1758384544,
+    "wof:lastmodified": 1758385140,
     "wof:name": "UA3907 (MCO-SFO)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981439787,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-19",
+    "date:cessation_upper": "2025-09-19",
     "date:inception_lower": "2025-09-19",
     "date:inception_upper": "2025-09-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-19",
+    "edtf:cessation": "2025-09-19T19:42:00Z",
+    "edtf:inception": "2025-09-19T14:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250919-A-FJI-5120",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N357TY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111202074",
+      "swim:gufi": "KR45938600"
+    },
     "wof:country": "US",
     "wof:created": 1758384108,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981439787,
     "wof:involves": [
+      1947304277,
+      1159283717,
+      1528104575,
       102527513,
       102531023,
-      1159283849,
-      1947304277,
-      1159283717
+      1159283849
     ],
-    "wof:lastmodified": 1758384108,
+    "wof:lastmodified": 1758385131,
     "wof:name": "AA2753 (MIA-SFO)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",

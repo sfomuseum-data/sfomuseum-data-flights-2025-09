@@ -2,10 +2,12 @@
   "id": 1981441707,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-19",
+    "date:cessation_upper": "2025-09-19",
     "date:inception_lower": "2025-09-19",
     "date:inception_upper": "2025-09-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-19",
+    "edtf:cessation": "2025-09-19T19:27:00Z",
+    "edtf:inception": "2025-09-19T17:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250919-A-AFR-2653",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N378DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111222936",
+      "swim:gufi": "KU59640600"
+    },
     "wof:country": "US",
     "wof:created": 1758384342,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981441707,
     "wof:involves": [
+      1159289411,
       102527513,
       102527363,
       1159284261,
       1947304675,
       1159283627
     ],
-    "wof:lastmodified": 1758384342,
+    "wof:lastmodified": 1758385135,
     "wof:name": "DL902 (SLC-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981447827,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-19",
-    "date:inception_upper": "2025-09-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-19",
+    "date:cessation_lower": "2025-09-20",
+    "date:cessation_upper": "2025-09-20",
+    "date:inception_lower": "2025-09-20",
+    "date:inception_upper": "2025-09-20",
+    "edtf:cessation": "2025-09-20T02:03:00Z",
+    "edtf:inception": "2025-09-20T00:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20250919-D-ITY-4506",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N459UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111259379",
+      "swim:gufi": "KO82004600"
+    },
     "wof:country": "US",
     "wof:created": 1758385025,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981447827,
     "wof:involves": [
+      1159292085,
       102533269,
       102527513,
       1159285413,
       1947304609,
       1763699293
     ],
-    "wof:lastmodified": 1758385025,
+    "wof:lastmodified": 1758385153,
     "wof:name": "UA2339 (SFO-SEA)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
