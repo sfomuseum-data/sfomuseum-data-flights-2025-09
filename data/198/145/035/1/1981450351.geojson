@@ -2,10 +2,12 @@
   "id": 1981450351,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-20",
-    "date:inception_upper": "2025-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-20",
+    "date:cessation_lower": "2025-09-20",
+    "date:cessation_upper": "2025-09-20",
+    "date:inception_lower": "2025-09-21",
+    "date:inception_upper": "2025-09-21",
+    "edtf:cessation": "2025-09-20T16:06:56-07:00",
+    "edtf:inception": "2025-09-21T01:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -61.1854715,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250920-A-VIR-1751",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N832DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111259999",
+      "swim:gufi": "KC02101100"
+    },
     "wof:country": "US",
     "wof:created": 1758470730,
     "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981450351,
     "wof:involves": [
+      1377564285,
       102527513,
       102525635,
       1159284261,
       1947304271,
       1159285483
     ],
-    "wof:lastmodified": 1758470730,
+    "wof:lastmodified": 1758471450,
     "wof:name": "DL1327 (DTW-SFO)",
     "wof:parent_id": 1947304271,
     "wof:placetype": "custom",

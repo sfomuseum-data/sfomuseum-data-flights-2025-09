@@ -2,10 +2,12 @@
   "id": 1981450405,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-20",
+    "date:cessation_upper": "2025-09-20",
     "date:inception_lower": "2025-09-20",
     "date:inception_upper": "2025-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-20",
+    "edtf:cessation": "2025-09-20T07:14:01-07:00",
+    "edtf:inception": "2025-09-20T16:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N808DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111308511",
+      "swim:gufi": "KC56281700"
+    },
     "wof:country": "US",
     "wof:created": 1758470736,
     "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981450405,
     "wof:involves": [
+      1377564285,
       102527513,
       102525635,
       1159284261,
       1947304675
     ],
-    "wof:lastmodified": 1758470736,
+    "wof:lastmodified": 1758471450,
     "wof:name": "DL469 (DTW-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",
