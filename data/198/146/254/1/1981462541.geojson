@@ -2,10 +2,12 @@
   "id": 1981462541,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-21",
+    "date:cessation_upper": "2025-09-21",
     "date:inception_lower": "2025-09-21",
     "date:inception_upper": "2025-09-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-21",
+    "edtf:cessation": "2025-09-21T18:24:00Z",
+    "edtf:inception": "2025-09-21T13:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20250921-D-AAL-7618",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N495AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111372469",
+      "swim:gufi": "KO43692100"
+    },
     "wof:country": "US",
     "wof:created": 1758557603,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981462541,
     "wof:involves": [
-      102530741,
-      102527513,
       1159283813,
       1947304285,
-      1159283849
+      1159283849,
+      1377564285,
+      102530741,
+      102527513
     ],
-    "wof:lastmodified": 1758557603,
+    "wof:lastmodified": 1758557995,
     "wof:name": "AS425 (SFO-BOS)",
     "wof:parent_id": 1947304285,
     "wof:placetype": "custom",

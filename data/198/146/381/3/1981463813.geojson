@@ -2,10 +2,12 @@
   "id": 1981463813,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-22",
+    "date:cessation_upper": "2025-09-22",
     "date:inception_lower": "2025-09-21",
     "date:inception_upper": "2025-09-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-21",
+    "edtf:cessation": "2025-09-22T01:56:00Z",
+    "edtf:inception": "2025-09-21T21:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20250921-D-HAL-2360",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N985JT",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111412121",
+      "swim:gufi": "KO68704100"
+    },
     "wof:country": "US",
     "wof:created": 1758557746,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981463813,
     "wof:involves": [
+      1159289411,
       102534365,
       102527513,
       1159284583,
       1947304313,
       1159284489
     ],
-    "wof:lastmodified": 1758557746,
+    "wof:lastmodified": 1758558010,
     "wof:name": "B6416 (SFO-JFK)",
     "wof:parent_id": 1947304313,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981458677,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-21",
+    "date:cessation_upper": "2025-09-21",
     "date:inception_lower": "2025-09-21",
     "date:inception_upper": "2025-09-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-21",
+    "edtf:cessation": "2025-09-21T12:53:12-07:00",
+    "edtf:inception": "2025-09-21T22:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.096773,
     "geom:longitude": -106.26808,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533437,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N662DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "111420734",
+      "swim:gufi": "KK70095100"
+    },
     "wof:country": "US",
     "wof:created": 1758557161,
     "wof:geomhash": "ac8251c482fd840d3852b97751cccb98",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981458677,
     "wof:involves": [
+      1159289939,
       102527513,
       102533437,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1758557161,
+    "wof:lastmodified": 1758557989,
     "wof:name": "DL8886 (CPS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
