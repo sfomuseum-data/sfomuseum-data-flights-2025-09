@@ -2,10 +2,12 @@
   "id": 1981475809,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-22",
-    "date:inception_upper": "2025-09-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-22",
+    "date:cessation_lower": "2025-09-23",
+    "date:cessation_upper": "2025-09-23",
+    "date:inception_lower": "2025-09-23",
+    "date:inception_upper": "2025-09-23",
+    "edtf:cessation": "2025-09-23T09:00:00Z",
+    "edtf:inception": "2025-09-23T05:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N833DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111438585",
+      "swim:gufi": "KO13741300"
+    },
     "wof:country": "US",
     "wof:created": 1758644031,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -86,9 +100,10 @@
       102526927,
       102527513,
       1159284261,
-      1947304679
+      1947304679,
+      1377564285
     ],
-    "wof:lastmodified": 1758644031,
+    "wof:lastmodified": 1758644347,
     "wof:name": "DL635 (SFO-ATL)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

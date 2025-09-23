@@ -2,10 +2,12 @@
   "id": 1981477703,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-22",
-    "date:inception_upper": "2025-09-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-22",
+    "date:cessation_lower": "2025-09-23",
+    "date:cessation_upper": "2025-09-23",
+    "date:inception_lower": "2025-09-23",
+    "date:inception_upper": "2025-09-23",
+    "edtf:cessation": "2025-09-23T12:15:27Z",
+    "edtf:inception": "2025-09-23T00:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -55.0628825,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102547941,
     "sfomuseum:base_flight_id": "20250922-D-DLH-9361",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N785UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111504736",
+      "swim:gufi": "KO78474200"
+    },
     "wof:country": "US",
     "wof:created": 1758644235,
     "wof:geomhash": "033526ec5f586bb6dd7c4e05cd770e88",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304141,
-      1159286015
+      1159286015,
+      1159289985
     ],
-    "wof:lastmodified": 1758644235,
+    "wof:lastmodified": 1758644361,
     "wof:name": "UA507 (SFO-FCO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

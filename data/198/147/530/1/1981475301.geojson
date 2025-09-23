@@ -2,10 +2,12 @@
   "id": 1981475301,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-23",
+    "date:cessation_upper": "2025-09-23",
     "date:inception_lower": "2025-09-22",
     "date:inception_upper": "2025-09-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-22",
+    "edtf:cessation": "2025-09-23T05:34:30Z",
+    "edtf:inception": "2025-09-22T12:31:10-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20250922-D-AAL-7593",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N264AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111434344",
+      "swim:gufi": "KO03792300"
+    },
     "wof:country": "US",
     "wof:created": 1758643976,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304273,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1758643976,
+    "wof:lastmodified": 1758644359,
     "wof:name": "AS534 (SFO-AUS)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",

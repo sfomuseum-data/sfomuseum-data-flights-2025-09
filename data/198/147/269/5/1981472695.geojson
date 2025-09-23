@@ -2,10 +2,12 @@
   "id": 1981472695,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-22",
+    "date:cessation_upper": "2025-09-22",
     "date:inception_lower": "2025-09-22",
     "date:inception_upper": "2025-09-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-22",
+    "edtf:cessation": "2025-09-22T23:26:00Z",
+    "edtf:inception": "2025-09-22T22:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-09-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N254WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "111556227",
+      "swim:gufi": "KL69267200"
+    },
     "wof:country": "US",
     "wof:created": 1758643695,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1981472695,
     "wof:involves": [
+      1159289869,
       102527513,
       102528997,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1758643695,
+    "wof:lastmodified": 1758644335,
     "wof:name": "WN9002 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981473245,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-22",
+    "date:cessation_upper": "2025-09-22",
     "date:inception_lower": "2025-09-22",
     "date:inception_upper": "2025-09-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-22",
+    "edtf:cessation": "2025-09-22T20:56:00Z",
+    "edtf:inception": "2025-09-22T18:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554947,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111509495",
+      "swim:gufi": "KS60651200"
+    },
     "wof:country": "US",
     "wof:created": 1758643755,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1981473245,
     "wof:involves": [
+      1159289871,
       102527513,
       102554947,
       1159285413,
       1947304609
     ],
-    "wof:lastmodified": 1758643755,
+    "wof:lastmodified": 1758644337,
     "wof:name": "UA3918 (YYC-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
