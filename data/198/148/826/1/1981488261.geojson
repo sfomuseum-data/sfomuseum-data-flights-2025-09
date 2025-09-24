@@ -2,10 +2,12 @@
   "id": 1981488261,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-24",
+    "date:cessation_upper": "2025-09-24",
     "date:inception_lower": "2025-09-23",
     "date:inception_upper": "2025-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-23",
+    "edtf:cessation": "2025-09-24T07:46:43Z",
+    "edtf:inception": "2025-09-23T22:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -58.794018,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102542801,
     "sfomuseum:base_flight_id": "20250923-D-ACA-3723",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N799UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111576207",
+      "swim:gufi": "KO59798300"
+    },
     "wof:country": "US",
     "wof:created": 1758730586,
     "wof:geomhash": "b03e5f5c78933bb0f626aa81ed57f330",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304137,
-      1159283597
+      1159283597,
+      1159289985
     ],
-    "wof:lastmodified": 1758730586,
+    "wof:lastmodified": 1758730687,
     "wof:name": "UA968 (SFO-AMS)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981486343,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-23",
+    "date:cessation_upper": "2025-09-23",
     "date:inception_lower": "2025-09-23",
     "date:inception_upper": "2025-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-23",
+    "edtf:cessation": "2025-09-23T23:16:00Z",
+    "edtf:inception": "2025-09-23T05:03:44-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:base_flight_id": "20250923-D-AFR-2134",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N829DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111560534",
+      "swim:gufi": "KO64861300"
+    },
     "wof:country": "US",
     "wof:created": 1758730377,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981486343,
     "wof:involves": [
+      1159283627,
+      1377564285,
       102525635,
       102527513,
       1159284261,
-      1763588251,
-      1159283627
+      1763588251
     ],
-    "wof:lastmodified": 1758730377,
+    "wof:lastmodified": 1758730659,
     "wof:name": "DL361 (SFO-DTW)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

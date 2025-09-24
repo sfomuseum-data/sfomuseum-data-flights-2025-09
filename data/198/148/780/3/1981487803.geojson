@@ -2,10 +2,12 @@
   "id": 1981487803,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-23",
+    "date:cessation_upper": "2025-09-23",
     "date:inception_lower": "2025-09-23",
     "date:inception_upper": "2025-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-23",
+    "edtf:cessation": "2025-09-23T20:27:15Z",
+    "edtf:inception": "2025-09-23T16:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.103286,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:base_flight_id": "20250923-D-ANZ-9040",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N67501",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111545617",
+      "swim:gufi": "KO54585300"
+    },
     "wof:country": "US",
     "wof:created": 1758730536,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304455,
-      1159283697
+      1159283697,
+      1528104577
     ],
-    "wof:lastmodified": 1758730536,
+    "wof:lastmodified": 1758730674,
     "wof:name": "UA1673 (SFO-CLE)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",
