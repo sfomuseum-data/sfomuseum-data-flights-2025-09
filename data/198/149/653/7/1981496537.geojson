@@ -2,10 +2,12 @@
   "id": 1981496537,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-24",
+    "date:cessation_upper": "2025-09-24",
     "date:inception_lower": "2025-09-24",
     "date:inception_upper": "2025-09-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-24",
+    "edtf:cessation": "2025-09-24T21:53:00Z",
+    "edtf:inception": "2025-09-24T06:46:11-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37545",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111651150",
+      "swim:gufi": "KO71164400"
+    },
     "wof:country": "US",
     "wof:created": 1758817046,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -86,9 +99,10 @@
       102528997,
       102527513,
       1159285413,
-      1947304527
+      1947304527,
+      1528104577
     ],
-    "wof:lastmodified": 1758817046,
+    "wof:lastmodified": 1758817184,
     "wof:name": "UA3750 (SFO-SAN)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",

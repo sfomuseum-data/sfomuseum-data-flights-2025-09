@@ -2,10 +2,12 @@
   "id": 1981489991,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-24",
+    "date:cessation_upper": "2025-09-24",
     "date:inception_lower": "2025-09-24",
     "date:inception_upper": "2025-09-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-24",
+    "edtf:cessation": "2025-09-24T16:55:00Z",
+    "edtf:inception": "2025-09-24T11:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250924-A-AAL-7506",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N960AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111604374",
+      "swim:gufi": "KN37875400"
+    },
     "wof:country": "US",
     "wof:created": 1758816302,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981489991,
     "wof:involves": [
+      1947304303,
+      1159283849,
+      1528104577,
       102527513,
       102530049,
-      1159283813,
-      1947304303,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1758816302,
+    "wof:lastmodified": 1758817167,
     "wof:name": "AS373 (EWR-SFO)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",

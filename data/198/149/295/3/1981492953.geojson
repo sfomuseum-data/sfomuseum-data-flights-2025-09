@@ -2,10 +2,12 @@
   "id": 1981492953,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-24",
-    "date:inception_upper": "2025-09-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-24",
+    "date:cessation_lower": "2025-09-24",
+    "date:cessation_upper": "2025-09-24",
+    "date:inception_lower": "2025-09-25",
+    "date:inception_upper": "2025-09-25",
+    "edtf:cessation": "2025-09-24T14:01:54-07:00",
+    "edtf:inception": "2025-09-25T01:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "WJA",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250924-A-AMX-7150",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGWSN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS03167500"
+    },
     "wof:country": "US",
     "wof:created": 1758816642,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981492953,
     "wof:involves": [
+      1159289869,
       102527513,
       102554947,
       1159285523,
       1947304673,
       1159283539
     ],
-    "wof:lastmodified": 1758816642,
+    "wof:lastmodified": 1758817191,
     "wof:name": "WS1520 (YYC-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",
