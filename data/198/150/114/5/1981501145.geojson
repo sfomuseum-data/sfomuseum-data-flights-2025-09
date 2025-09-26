@@ -1,0 +1,109 @@
+{
+  "id": 1981501145,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-09-25",
+    "date:inception_upper": "2025-09-25",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-09-25",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-09-25",
+    "flysfo:estimated_timestamp": 1758871680,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3893",
+    "flysfo:gate": "F12",
+    "flysfo:journey": "CWF-SFO",
+    "flysfo:scheduled_timestamp": 1758867660,
+    "flysfo:timestamp": 1758871680,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,30.210600,-93.143204,37.617990",
+    "geom:latitude": 33.914294999999996,
+    "geom:longitude": -107.75707349999999,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.620058,
+    "lbl:longitude": -122.38824,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102531259,
+    "sfomuseum:flight_id": "20250925-A-UAL-3893",
+    "sfomuseum:flight_number": [
+      "UAL3893",
+      "UA3893"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [
+      1947304067,
+      102527513,
+      1947304451,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1947304483,
+      1947304447,
+      102085387
+    ],
+    "wof:country": "US",
+    "wof:created": 1758903038,
+    "wof:geomhash": "32d30f4325a4e48c10f69227a28b060a",
+    "wof:hierarchy": [
+      {
+        "building_id": 1947304067,
+        "campus_id": 102527513,
+        "concourse_id": 1947304451,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "custom_id": 1981501145,
+        "flight_id": 1981501145,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1947304483,
+        "wing_id": 1947304447
+      },
+      {
+        "building_id": 1947304067,
+        "campus_id": 102527513,
+        "concourse_id": 1947304451,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "custom_id": 1981501145,
+        "flight_id": 1981501145,
+        "region_id": 85688637,
+        "venue_id": 1947304483,
+        "wing_id": 1947304447
+      }
+    ],
+    "wof:id": 1981501145,
+    "wof:involves": [
+      102527513,
+      102531259,
+      1159285413,
+      1947304483
+    ],
+    "wof:lastmodified": 1758903038,
+    "wof:name": "UA3893 (CWF-SFO)",
+    "wof:parent_id": 1947304483,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    30.2106,
+    -93.143204,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-93.143204,30.2106],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
