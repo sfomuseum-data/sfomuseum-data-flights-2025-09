@@ -2,10 +2,12 @@
   "id": 1981503733,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-25",
-    "date:inception_upper": "2025-09-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-25",
+    "date:cessation_lower": "2025-09-25",
+    "date:cessation_upper": "2025-09-25",
+    "date:inception_lower": "2025-09-26",
+    "date:inception_upper": "2025-09-26",
+    "edtf:cessation": "2025-09-25T14:32:04Z",
+    "edtf:inception": "2025-09-25T23:14:53-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20250925-D-AMX-4205",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N857DZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111693989",
+      "swim:gufi": "KO43561501"
+    },
     "wof:country": "US",
     "wof:created": 1758903337,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304679,
-      1159283539
+      1159283539,
+      1377564285
     ],
-    "wof:lastmodified": 1758903337,
+    "wof:lastmodified": 1758903713,
     "wof:name": "DL2721 (SFO-SEA)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

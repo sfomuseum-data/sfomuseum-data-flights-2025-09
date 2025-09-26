@@ -2,10 +2,12 @@
   "id": 1981500007,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-25",
+    "date:cessation_upper": "2025-09-25",
     "date:inception_lower": "2025-09-25",
     "date:inception_upper": "2025-09-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-25",
+    "edtf:cessation": "2025-09-25T10:59:46-07:00",
+    "edtf:inception": "2025-09-25T19:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "JBU",
     "icao:base_airline": "ICE",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250925-A-ICE-7969",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2156J",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111728189",
+      "swim:gufi": "KB56845500"
+    },
     "wof:country": "US",
     "wof:created": 1758902904,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -92,9 +106,10 @@
       102530741,
       1159284583,
       1947304289,
-      1159284513
+      1159284513,
+      1377564297
     ],
-    "wof:lastmodified": 1758902904,
+    "wof:lastmodified": 1758903703,
     "wof:name": "B6233 (BOS-SFO)",
     "wof:parent_id": 1947304289,
     "wof:placetype": "custom",

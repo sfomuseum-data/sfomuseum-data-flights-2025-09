@@ -2,10 +2,12 @@
   "id": 1981500587,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-25",
-    "date:inception_upper": "2025-09-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-25",
+    "date:cessation_lower": "2025-09-25",
+    "date:cessation_upper": "2025-09-25",
+    "date:inception_lower": "2025-09-26",
+    "date:inception_upper": "2025-09-26",
+    "edtf:cessation": "2025-09-25T11:49:22-07:00",
+    "edtf:inception": "2025-09-26T01:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-09-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.669650000000004,
     "geom:longitude": -122.2917035,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531041,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N912WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO83331500"
+    },
     "wof:country": "US",
     "wof:created": 1758902973,
     "wof:geomhash": "ef262e0da13c3e8dd354e2b42ae8d539",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981500587,
     "wof:involves": [
-      102527513,
       102531041,
       1159285591,
-      -1
+      1159289869,
+      102527513
     ],
-    "wof:lastmodified": 1758902973,
+    "wof:lastmodified": 1758903684,
     "wof:name": "WN8506 (OAK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

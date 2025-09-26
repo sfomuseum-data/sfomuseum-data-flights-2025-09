@@ -2,10 +2,12 @@
   "id": 1981505417,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-26",
+    "date:cessation_upper": "2025-09-26",
     "date:inception_lower": "2025-09-25",
     "date:inception_upper": "2025-09-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-25",
+    "edtf:cessation": "2025-09-26T01:25:00Z",
+    "edtf:inception": "2025-09-25T06:33:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.5210065,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532047,
     "sfomuseum:base_flight_id": "20250925-D-ANA-7364",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37532",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111735142",
+      "swim:gufi": "KO69707500"
+    },
     "wof:country": "US",
     "wof:created": 1758903530,
     "wof:geomhash": "ff243e97b2d4ce40e0a4accb79115371",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981505417,
     "wof:involves": [
+      1159283875,
+      1528104577,
       102532047,
       102527513,
       1159285413,
-      1947304483,
-      1159283875
+      1947304483
     ],
-    "wof:lastmodified": 1758903530,
+    "wof:lastmodified": 1758903706,
     "wof:name": "UA1660 (SFO-BWI)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",
