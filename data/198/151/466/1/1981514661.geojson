@@ -2,10 +2,12 @@
   "id": 1981514661,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-27",
+    "date:cessation_upper": "2025-09-27",
     "date:inception_lower": "2025-09-26",
     "date:inception_upper": "2025-09-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-26",
+    "edtf:cessation": "2025-09-27T01:06:12Z",
+    "edtf:inception": "2025-09-26T06:19:17-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20250926-D-ANA-7338",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N769UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111824544",
+      "swim:gufi": "KO69033600"
+    },
     "wof:country": "US",
     "wof:created": 1758989905,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304463,
-      1159283875
+      1159283875,
+      1159289985
     ],
-    "wof:lastmodified": 1758989905,
+    "wof:lastmodified": 1758990078,
     "wof:name": "UA2437 (SFO-EWR)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",

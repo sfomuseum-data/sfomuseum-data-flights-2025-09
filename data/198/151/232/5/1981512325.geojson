@@ -2,10 +2,12 @@
   "id": 1981512325,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-26",
-    "date:inception_upper": "2025-09-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-26",
+    "date:cessation_lower": "2025-09-27",
+    "date:cessation_upper": "2025-09-27",
+    "date:inception_lower": "2025-09-27",
+    "date:inception_upper": "2025-09-27",
+    "edtf:cessation": "2025-09-27T03:38:00Z",
+    "edtf:inception": "2025-09-27T02:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:base_flight_id": "20250926-D-AAL-7524",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N402AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111762385",
+      "swim:gufi": "KO03792700"
+    },
     "wof:country": "US",
     "wof:created": 1758989636,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -92,9 +105,10 @@
       102527513,
       1159283813,
       1947304271,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1758989636,
+    "wof:lastmodified": 1758990056,
     "wof:name": "AS525 (SFO-PDX)",
     "wof:parent_id": 1947304271,
     "wof:placetype": "custom",
