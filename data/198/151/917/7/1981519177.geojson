@@ -2,10 +2,12 @@
   "id": 1981519177,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-27",
+    "date:cessation_upper": "2025-09-27",
     "date:inception_lower": "2025-09-27",
     "date:inception_upper": "2025-09-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-27",
+    "edtf:cessation": "2025-09-27T12:05:46-07:00",
+    "edtf:inception": "2025-09-27T14:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -60.1448105,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250927-A-DLH-8856",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N798UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111878133"
+    },
     "wof:country": "US",
     "wof:created": 1759075832,
     "wof:geomhash": "7a64189ee84e1d057c670ad6a60700c7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981519177,
     "wof:involves": [
+      1159289985,
       102527513,
       102545733,
       1159285413,
       1947304145,
       1159286015
     ],
-    "wof:lastmodified": 1759075832,
+    "wof:lastmodified": 1759076432,
     "wof:name": "UA673 (BCN-SFO)",
     "wof:parent_id": 1947304145,
     "wof:placetype": "custom",
