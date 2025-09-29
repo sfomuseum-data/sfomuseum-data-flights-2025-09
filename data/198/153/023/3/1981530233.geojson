@@ -2,10 +2,12 @@
   "id": 1981530233,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-29",
+    "date:cessation_upper": "2025-09-29",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-29T00:22:00Z",
+    "edtf:inception": "2025-09-28T05:18:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20250928-D-AFR-2708",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N178DZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111985016",
+      "swim:gufi": "KO63961100"
+    },
     "wof:country": "US",
     "wof:created": 1759162498,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304681,
-      1159283627
+      1159283627,
+      1159289965
     ],
-    "wof:lastmodified": 1759162498,
+    "wof:lastmodified": 1759162863,
     "wof:name": "DL668 (SFO-JFK)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

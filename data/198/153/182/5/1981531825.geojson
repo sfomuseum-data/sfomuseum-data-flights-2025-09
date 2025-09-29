@@ -2,10 +2,12 @@
   "id": 1981531825,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-28",
+    "date:cessation_upper": "2025-09-28",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-28T15:35:00Z",
+    "edtf:inception": "2025-09-28T00:39:25-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20250928-D-AVA-2039",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N492UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111962825",
+      "swim:gufi": "KO49019100"
+    },
     "wof:country": "US",
     "wof:created": 1759162678,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304527,
-      1159285749
+      1159285749,
+      1159292085
     ],
-    "wof:lastmodified": 1759162678,
+    "wof:lastmodified": 1759162876,
     "wof:name": "UA1260 (SFO-LAX)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",

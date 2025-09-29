@@ -2,10 +2,12 @@
   "id": 1981525711,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-28",
+    "date:cessation_upper": "2025-09-28",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-28T08:07:22-07:00",
+    "edtf:inception": "2025-09-28T21:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250928-A-AFR-5816",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N387DA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111994898",
+      "swim:gufi": "KL70860100"
+    },
     "wof:country": "US",
     "wof:created": 1759161988,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +106,10 @@
       102533795,
       1159284261,
       1763588251,
-      1159283627
+      1159283627,
+      1159289871
     ],
-    "wof:lastmodified": 1759161988,
+    "wof:lastmodified": 1759162876,
     "wof:name": "DL2267 (LAX-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

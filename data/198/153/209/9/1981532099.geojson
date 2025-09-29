@@ -2,10 +2,12 @@
   "id": 1981532099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-28",
+    "date:cessation_upper": "2025-09-28",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-28T11:13:19Z",
+    "edtf:inception": "2025-09-28T06:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111944418"
+    },
     "wof:country": "US",
     "wof:created": 1759162708,
     "wof:geomhash": "2155b19e54308f477f2a379762b2f6c8",
@@ -94,7 +99,7 @@
       1947304513,
       1779770723
     ],
-    "wof:lastmodified": 1759162708,
+    "wof:lastmodified": 1759162880,
     "wof:name": "UA2615 (SFO-FLL)",
     "wof:parent_id": 1947304513,
     "wof:placetype": "custom",

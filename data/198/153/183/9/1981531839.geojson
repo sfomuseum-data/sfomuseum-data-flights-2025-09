@@ -2,10 +2,12 @@
   "id": 1981531839,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-28",
+    "date:cessation_upper": "2025-09-28",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-28T20:33:00Z",
+    "edtf:inception": "2025-09-28T15:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.315247,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528181,
     "sfomuseum:base_flight_id": "20250928-D-ANZ-9391",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17403",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111969763",
+      "swim:gufi": "KO53792100"
+    },
     "wof:country": "US",
     "wof:created": 1759162679,
     "wof:geomhash": "d7bea1763df143b6882335af1c301bcf",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304603,
-      1159283697
+      1159283697,
+      1528104577
     ],
-    "wof:lastmodified": 1759162679,
+    "wof:lastmodified": 1759162876,
     "wof:name": "UA1355 (SFO-PIT)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

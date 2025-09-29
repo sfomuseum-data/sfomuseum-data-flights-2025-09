@@ -2,10 +2,12 @@
   "id": 1981527613,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-28",
+    "date:cessation_upper": "2025-09-28",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-28T10:00:00Z",
+    "edtf:inception": "2025-09-28T05:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532255,
@@ -48,6 +52,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111944135",
+      "swim:gufi": "KI14014100"
+    },
     "wof:country": "US",
     "wof:created": 1759162203,
     "wof:geomhash": "980d68d8d28509c0742a6b2a7abf5f67",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1981527613,
     "wof:involves": [
-      102527513,
-      102532255,
       1159285413,
-      1947304459
+      1947304459,
+      1159289985,
+      102527513,
+      102532255
     ],
-    "wof:lastmodified": 1759162203,
+    "wof:lastmodified": 1759162893,
     "wof:name": "UA3774 (CMH-SFO)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",

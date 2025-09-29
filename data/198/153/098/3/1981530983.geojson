@@ -2,10 +2,12 @@
   "id": 1981530983,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-28",
+    "date:cessation_upper": "2025-09-28",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-28T23:59:05Z",
+    "edtf:inception": "2025-09-28T18:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "JBU",
     "icao:base_airline": "ICE",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20250928-D-ICE-7834",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N4077J",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111981801",
+      "swim:gufi": "KO51869100"
+    },
     "wof:country": "US",
     "wof:created": 1759162583,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -92,9 +105,10 @@
       102527513,
       1159284583,
       1947304299,
-      1159284513
+      1159284513,
+      1377564297
     ],
-    "wof:lastmodified": 1759162583,
+    "wof:lastmodified": 1759162870,
     "wof:name": "B6834 (SFO-BOS)",
     "wof:parent_id": 1947304299,
     "wof:placetype": "custom",

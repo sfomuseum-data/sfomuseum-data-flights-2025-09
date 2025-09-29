@@ -2,10 +2,12 @@
   "id": 1981525705,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-28",
+    "date:cessation_upper": "2025-09-28",
     "date:inception_lower": "2025-09-28",
     "date:inception_upper": "2025-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-28",
+    "edtf:cessation": "2025-09-28T07:13:51-07:00",
+    "edtf:inception": "2025-09-28T17:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-09-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N901DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "111974182",
+      "swim:gufi": "KP59401100"
+    },
     "wof:country": "US",
     "wof:created": 1759161988,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981525705,
     "wof:involves": [
+      1377564285,
       102527513,
       102531131,
       1159284261,
       1947304679
     ],
-    "wof:lastmodified": 1759161988,
+    "wof:lastmodified": 1759162876,
     "wof:name": "DL2074 (MSP-SFO)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",
