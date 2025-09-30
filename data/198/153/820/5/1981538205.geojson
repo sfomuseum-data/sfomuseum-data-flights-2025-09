@@ -1,0 +1,72 @@
+{
+  "id": 1981538205,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-09-29",
+    "date:inception_upper": "2025-09-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-09-29",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AC",
+    "flysfo:date": "2025-09-29",
+    "flysfo:estimated_timestamp": 1759164600,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AC7066",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-YYZ",
+    "flysfo:scheduled_timestamp": 1759158000,
+    "flysfo:timestamp": 1759164600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-79.628342,43.676352",
+    "geom:latitude": 40.647171,
+    "geom:longitude": -100.9996425,
+    "iata:airline": "AC",
+    "icao:airline": "ACA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283597,
+    "sfomuseum:arrival_id": 102555091,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250929-D-ACA-7066",
+    "sfomuseum:flight_number": [
+      "ACA7066",
+      "AC7066"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1759248743,
+    "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981538205,
+        "flight_id": 1981538205
+      }
+    ],
+    "wof:id": 1981538205,
+    "wof:involves": [
+      102555091,
+      102527513,
+      1159283597,
+      -1
+    ],
+    "wof:lastmodified": 1759248743,
+    "wof:name": "AC7066 (SFO-YYZ)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -79.628342,
+    43.676352
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-79.628342,43.676352]],"type":"MultiPoint"}
+}
