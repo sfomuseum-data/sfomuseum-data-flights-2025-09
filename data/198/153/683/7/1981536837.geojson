@@ -2,10 +2,12 @@
   "id": 1981536837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-29",
+    "date:cessation_upper": "2025-09-29",
     "date:inception_lower": "2025-09-29",
     "date:inception_upper": "2025-09-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-29",
+    "edtf:cessation": "2025-09-29T12:32:31-07:00",
+    "edtf:inception": "2025-09-29T21:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.86132599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250929-A-ANZ-2888",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N464UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112081032",
+      "swim:gufi": "KC75427200"
+    },
     "wof:country": "US",
     "wof:created": 1759248588,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -92,9 +106,10 @@
       102525635,
       1159285413,
       1947304457,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1759248588,
+    "wof:lastmodified": 1759249283,
     "wof:name": "UA2866 (DTW-SFO)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",

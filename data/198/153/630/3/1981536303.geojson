@@ -2,10 +2,12 @@
   "id": 1981536303,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-29",
-    "date:inception_upper": "2025-09-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-29",
+    "date:cessation_lower": "2025-09-29",
+    "date:cessation_upper": "2025-09-29",
+    "date:inception_lower": "2025-09-30",
+    "date:inception_upper": "2025-09-30",
+    "edtf:cessation": "2025-09-29T12:09:02-07:00",
+    "edtf:inception": "2025-09-30T01:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-09-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N7733B",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112011566",
+      "swim:gufi": "KL80175200"
+    },
     "wof:country": "US",
     "wof:created": 1759248528,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981536303,
     "wof:involves": [
-      102527513,
-      102533795,
       1159285591,
-      1947304597
+      1947304597,
+      1159289869,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1759248528,
+    "wof:lastmodified": 1759249281,
     "wof:name": "WN652 (LAX-SFO)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

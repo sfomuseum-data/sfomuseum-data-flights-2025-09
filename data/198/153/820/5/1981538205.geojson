@@ -2,10 +2,12 @@
   "id": 1981538205,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-29",
+    "date:cessation_upper": "2025-09-29",
     "date:inception_lower": "2025-09-29",
     "date:inception_upper": "2025-09-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-29",
+    "edtf:cessation": "2025-09-29T21:30:22Z",
+    "edtf:inception": "2025-09-29T16:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:date": "2025-09-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "CGJXN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "112084336",
+      "swim:gufi": "KO42006200"
+    },
     "wof:country": "US",
     "wof:created": 1759248743,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981538205,
     "wof:involves": [
+      1813375783,
       102555091,
       102527513,
-      1159283597,
-      -1
+      1159283597
     ],
-    "wof:lastmodified": 1759248743,
+    "wof:lastmodified": 1759249278,
     "wof:name": "AC7066 (SFO-YYZ)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

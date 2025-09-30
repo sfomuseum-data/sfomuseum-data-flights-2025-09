@@ -2,10 +2,12 @@
   "id": 1981535295,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-29",
-    "date:inception_upper": "2025-09-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-29",
+    "date:cessation_lower": "2025-09-30",
+    "date:cessation_upper": "2025-09-30",
+    "date:inception_lower": "2025-09-30",
+    "date:inception_upper": "2025-09-30",
+    "edtf:cessation": "2025-09-30T03:28:38Z",
+    "edtf:inception": "2025-09-30T01:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-09-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A20N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1377564295,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N386FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112087414",
+      "swim:gufi": "KA80499201"
+    },
     "wof:country": "US",
     "wof:created": 1759248413,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981535295,
     "wof:involves": [
+      1377564295,
       102527513,
       102526751,
       1159284401,
       1947304083
     ],
-    "wof:lastmodified": 1759248413,
+    "wof:lastmodified": 1759249271,
     "wof:name": "F91191 (PHX-SFO)",
     "wof:parent_id": 1947304083,
     "wof:placetype": "custom",

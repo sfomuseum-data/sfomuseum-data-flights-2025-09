@@ -2,10 +2,12 @@
   "id": 1981541413,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-30",
+    "date:cessation_upper": "2025-09-30",
     "date:inception_lower": "2025-09-29",
     "date:inception_upper": "2025-09-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-29",
+    "edtf:cessation": "2025-09-30T05:54:10Z",
+    "edtf:inception": "2025-09-29T16:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-09-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.0794145,
     "geom:longitude": -2.117622499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102550865,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2250U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112048857",
+      "swim:gufi": "KO47737200"
+    },
     "wof:country": "US",
     "wof:created": 1759249102,
     "wof:geomhash": "325a27079583eb22ad4e829d7b21e0b3",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981541413,
     "wof:involves": [
-      102550865,
       102527513,
       1159285413,
-      1947304141
+      1947304141,
+      1159289993,
+      102550865
     ],
-    "wof:lastmodified": 1759249102,
+    "wof:lastmodified": 1759249268,
     "wof:name": "UA3871 (SFO-XMN)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",
