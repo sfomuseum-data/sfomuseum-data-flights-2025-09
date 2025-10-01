@@ -2,10 +2,12 @@
   "id": 1981546517,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-30",
+    "date:cessation_upper": "2025-09-30",
     "date:inception_lower": "2025-09-30",
     "date:inception_upper": "2025-09-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-30",
+    "edtf:cessation": "2025-09-30T21:14:00Z",
+    "edtf:inception": "2025-09-30T19:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "JAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20250930-D-JAL-7540",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N339PL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112151618",
+      "swim:gufi": "KO64827300"
+    },
     "wof:country": "US",
     "wof:created": 1759335078,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981546517,
     "wof:involves": [
+      1159284563,
+      1159289871,
       102526751,
       102527513,
       1159283849,
-      1947304301,
-      1159284563
+      1947304301
     ],
-    "wof:lastmodified": 1759335078,
+    "wof:lastmodified": 1759335640,
     "wof:name": "AA2423 (SFO-PHX)",
     "wof:parent_id": 1947304301,
     "wof:placetype": "custom",

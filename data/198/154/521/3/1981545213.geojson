@@ -2,10 +2,12 @@
   "id": 1981545213,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-09-30",
-    "date:inception_upper": "2025-09-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-30",
+    "date:cessation_lower": "2025-09-30",
+    "date:cessation_upper": "2025-09-30",
+    "date:inception_lower": "2025-10-01",
+    "date:inception_upper": "2025-10-01",
+    "edtf:cessation": "2025-09-30T13:39:18-07:00",
+    "edtf:inception": "2025-10-01T01:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-09-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8691A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +92,13 @@
     ],
     "wof:id": 1981545213,
     "wof:involves": [
-      102527513,
-      102533795,
       1159285591,
-      1947304599
+      1947304599,
+      1159289871,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1759334929,
+    "wof:lastmodified": 1759335626,
     "wof:name": "WN2255 (LAX-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

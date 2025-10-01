@@ -2,10 +2,12 @@
   "id": 1981550049,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-30",
+    "date:cessation_upper": "2025-09-30",
     "date:inception_lower": "2025-09-30",
     "date:inception_upper": "2025-09-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-30",
+    "edtf:cessation": "2025-09-30T18:55:00Z",
+    "edtf:inception": "2025-09-30T03:49:56-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20250930-D-ACA-5340",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17597",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112142867",
+      "swim:gufi": "KO60609300"
+    },
     "wof:country": "US",
     "wof:created": 1759335476,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981550049,
     "wof:involves": [
+      1528104577,
       102527209,
       102527513,
       1159285413,
       1947304459,
       1159283597
     ],
-    "wof:lastmodified": 1759335476,
+    "wof:lastmodified": 1759335616,
     "wof:name": "UA611 (SFO-LAS)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",

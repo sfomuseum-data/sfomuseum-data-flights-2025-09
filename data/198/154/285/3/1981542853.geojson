@@ -2,10 +2,12 @@
   "id": 1981542853,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-09-30",
+    "date:cessation_upper": "2025-09-30",
     "date:inception_lower": "2025-09-30",
     "date:inception_upper": "2025-09-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-09-30",
+    "edtf:cessation": "2025-09-30T13:46:46-07:00",
+    "edtf:inception": "2025-09-30T22:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250930-A-ANZ-4737",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGELJ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112167952"
+    },
     "wof:country": "US",
     "wof:created": 1759334654,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -92,9 +105,10 @@
       102555091,
       1159283597,
       1947304627,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1759334654,
+    "wof:lastmodified": 1759335619,
     "wof:name": "AC745 (YYZ-SFO)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",
